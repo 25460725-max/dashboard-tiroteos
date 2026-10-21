@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Configuración básica de la página
-st.set_page_config(page_title="Dashboard de Tiroteos Escolares", layout="wide")
+st.title("Dashboard: Análisis de Tiroteos Escolares en EE. UU. (1999 - 2023)")
 
 # 2. Implementar capa de backend con caché
 @st.cache_data
